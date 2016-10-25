@@ -1,0 +1,280 @@
+1464150320TS---><!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" class="ie ie9"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Malongyer Production">
+    <meta name="keywords" content="ถ่ายงานแต่งงาน พรีเวดดิ้ง ถ่ายงานอีเว้น  หาช่างภาพ ถ่ายโปรไฟล์ Pre-wedding งานหมั้น"/>
+    <meta name="Description" content="ถ่ายงานแต่งงาน พรีเวดดิ้ง ถ่ายงานอีเว้น  หาช่างภาพ ถ่ายโปรไฟล์ Pre-wedding งานหมั้น"/>
+    <meta property="og:title" content="Malongyer Production"/>
+    <meta property="og:image" content="http://malongyer.com/webroot/images/IMG_4934.jpg"/>
+    <meta property="og:site_name" content="Malongyer Production"/>
+    <meta property="og:description" content="ถ่ายงานแต่งงาน พรีเวดดิ้ง ถ่ายงานอีเว้น  หาช่างภาพ ถ่ายโปรไฟล์ Pre-wedding งานหมั้น"/>
+    
+    <!-- Mobile Specific Metas
+    +++++++++++++++++++++++++++ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="http://www.malongyer.com/webroot/images/favicon.ico">
+
+    <link rel="apple-touch-icon" href="http://www.malongyer.com/webroot/images/apple_icons_57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://www.malongyer.com/webroot/images/apple_icons_72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://www.malongyer.com/webroot/images/apple_icons_114x114.png">
+
+	<title>Malongyer Production</title>
+    <link rel="stylesheet" type="text/css" href="http://www.malongyer.com/webroot/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="http://www.malongyer.com/webroot/css/bootstrap-responsive.css">    
+    <link rel="stylesheet" type="text/css" href="http://www.malongyer.com/webroot/css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="http://www.malongyer.com/webroot/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="http://www.malongyer.com/webroot/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://www.malongyer.com/webroot/css/theme_settings.css">
+    <link rel="stylesheet" type="text/css" href="http://www.malongyer.com/webroot/css/skin.css">
+	<link rel="stylesheet" type="text/css" href="http://www.malongyer.com/webroot/css/color_theme.css" id="theme_color">
+    
+    <script src="http://www.malongyer.com/webroot/js/jquery-1.9.0.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://www.malongyer.com/webroot/js/theme.js"></script>  
+ 
+    <script src="http://www.malongyer.com/webroot/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="http://www.malongyer.com/webroot/source/jquery.fancybox.js?v=2.1.5"></script>
+    <script src="http://www.malongyer.com/webroot/js/masonry.pkgd.min.js"></script>
+   
+    <script type="text/javascript" src="http://www.malongyer.com/webroot/js/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script type="text/javascript" src="http://www.malongyer.com/webroot/js/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="http://www.malongyer.com/webroot/js/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+    <script type="text/javascript" src="http://www.malongyer.com/webroot/js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <style>
+		div.fs_title_wrapper,.fs_thmb_wrapper { display:none;}
+	</style>
+<meta property="og:image:width" content="450"/>
+<meta property="og:image:height" content="298"/>
+</head>
+
+    
+    <script type="text/javascript">
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-41636844-3', 'auto');
+    ga('send', 'pageview');
+
+        $(document).ready(function(){
+            $('.fancybox-media')
+            .attr('rel', 'media-gallery')
+            .fancybox({
+                openEffect : 'none',
+                closeEffect : 'none',
+                prevEffect : 'none',
+                nextEffect : 'none',
+
+                arrows : false,
+                helpers : {
+                    media : {},
+                    buttons : {}
+                }
+            });
+
+            $("img.lazy").lazyload({
+                effect : "fadeIn"
+            });
+
+
+          $('ul#container').each(function(){
+            var $ul = $(this);
+            var $liArr = $ul.children('li');
+            $liArr.sort(function(a,b){
+                var temp = parseInt( Math.random()*10 );
+                var isOddOrEven = temp%2;
+                var isPosOrNeg = temp>5 ? 1 : -1;
+                return( isOddOrEven*isPosOrNeg );
+            })
+            .appendTo($ul);
+          });
+
+           var width = $(window).width();
+           if(width < 420)
+           {
+               $('div.fs_grid_module.load').css('min-height','499px');
+               $('div.fs_grid_module.load').css('position','relative');
+                 $('div.fs_grid_module').css('margin-left','20px');
+                $('div.fs_grid_module').css('top','88px');
+
+            }
+        });
+
+        $(window).load(function(){
+            $('.fs_grid_module').masonry({
+                itemSelector: '.grid_gallery-item',
+                isAnimated: true,
+                
+            });
+            setTimeout("$('.fs_grid_module').masonry()",500);
+        });
+        $(window).resize(function(){
+            $('.fs_grid_module').masonry();
+        });
+    </script>
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your share button code -->
+<div class="fb-share-button" data-href="http://www.malongyer.com"    data-layout="button_count"> </div>
+<body class="fullscreen_layout">
+	<header>
+        <div class="header_wrapper container">
+             <a href="http://www.malongyer.com/main" class="logo" style="z-index:99999" >
+            <img src="http://www.malongyer.com/webroot/timthumb.php?src=http://www.malongyer.com/webroot/images/fav_icon.png&zc=3" alt=""  class="logo" width="129" height="39" >
+            <img src="http://www.malongyer.com/webroot/timthumb.php?src=http://www.malongyer.com/webroot/images/fav_icon.png&zc=3" style="margin-left:-45px" 
+            class="logo_retina"  width="145" height="45">
+            </a>
+           <nav>
+                 <ul class="menu">
+                    <li><a href="http://www.malongyer.com/main">HOME</a></li>
+                    <li><a href="#">Wedding</a>
+                        <ul class="sub-menu" style="background:white;opacity:0.5;color:black!important;">
+                            <li ><a href="http://www.malongyer.com/main/prewedding">Pre-wedding</a></li>
+                            <li><a href="http://www.malongyer.com/main/presentation">Presentation</a></li>
+                            <li><a href="http://www.malongyer.com/main/engagement">Engagement</a></li>
+                            <li ><a href="http://www.malongyer.com/main/weddingreception">Wedding reception</a></li>
+                            <li><a href="http://www.malongyer.com/main//weddingcinema">Wedding-Cinema</a></li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Party-Event</a>
+                        <ul class="sub-menu" style="background:white;opacity:0.5;color:black!important;">
+                            <li ><a href="http://www.malongyer.com/main/partyevent">Photo</a></li>
+                            <li ><a href="http://www.malongyer.com/main/partyvideo">Video</a></li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="http://www.malongyer.com/main/presentationvideo">Presentation</a></li>   
+                   <!--  <li><a href="http://www.malongyer.com/main/graphic">Graphic & Design</a></li>
+                    <li><a href="http://www.malongyer.com/main/blog">Photos Stream</a></li>
+                    --> <li  class="current-menu-parent"><a href="http://www.malongyer.com/main/contact" >Contact us</a></li>
+                </ul><!-- .menu -->
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>    <div class="main_wrapper">
+        <!-- C O N T E N T -->
+        <div class="content_wrapper">
+        	<div class="page_title_block">
+            	<div class="container">
+                    <h1 class="title">Malongyer Photos Stream</h1>
+                    <div class="breadcrumbs"><a href="http://www.malongyer.com">Home</a><a href="#">Blog</a><span>Malongyer Photos Stream</span></div>
+                </div>
+            </div>
+            <div class="container">	            
+                <div class="content_block left-sidebar row">
+                    <div class="fl-container span12">
+                        <div class="row">
+                            <div class="posts-block span9">
+                                <div class="contentarea">
+                                    <div class="row-fluid">           
+                                    <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: outputs</p>
+<p>Filename: template/blog_template.php</p>
+<p>Line Number: 17</p>
+
+</div>                                     <div class="span12 module_cont module_blog">
+                                            <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Invalid argument supplied for foreach()</p>
+<p>Filename: template/blog_template.php</p>
+<p>Line Number: 19</p>
+
+</div>                    
+                                        </div>	 							
+                                    </div><!-- .row-fluid -->
+                                    
+                                </div><!-- .contentarea -->
+                            </div>
+                            <div class="left-sidebar-block span3">
+                                <div class="sidepanel widget_flickr">
+                                    <div class="bg_title"><h3 class="sidebar_header"><b>Malongyer</b> Photostream</h3></div>
+                                    <div class="flickr_widget_wrapper">
+
+                                          <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Invalid argument supplied for foreach()</p>
+<p>Filename: template/blog_template.php</p>
+<p>Line Number: 40</p>
+
+</div>                                    </div>
+                                </div><!-- .sidepanel -->
+
+                                <div class="sidepanel widget_tag_cloud">
+                                    <div class="bg_title"><h3 class="sidebar_header">Tags</h3></div>
+                                    <div class="tagcloud">
+                                        <a href="#">#malongyerphotography</a>
+                                        <a href="#">#malongyer</a>
+                                        <a href="#">#weddingthailand</a>
+                                        <a href="#">#wedding</a>
+                                        <a href="#">#weddinginspiration</a>
+                                        <a href="#">#weddingdress</a>
+                                        <a href="#">#weddingideas</a>
+                                        <a href="#">weddingdecor</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div><!-- .left-sidebar -->
+                        </div>
+                        <div class="clear"><!-- ClearFix --></div>
+                    </div><!-- .fl-container -->
+                    <div class="right-sidebar-block span3">
+                        <aside class="sidebar">
+							
+                        </aside>
+                    </div><!-- .right-sidebar -->
+                    <div class="clear"><!-- ClearFix --></div>
+                </div>
+            </div><!-- .container -->
+        </div><!-- .content_wrapper -->
+	
+    </div><!-- .main_wrapper -->
+
+  
+
+    <script type="text/javascript" src="http://www.malongyer.com/webroot/js/theme.js"></script>	
+</body>
+</html> <div class="header2top"></div>
+ <script>
+
+        $(window).load(function(){
+            //$('.fs_grid_module').masonry();
+            $('.fs_grid_module').masonry({
+                itemSelector: '.grid_gallery-item',
+                isAnimated: true,
+
+            });
+            setTimeout("$('.fs_grid_module').masonry()",500);
+        });
+        $(window).resize(function(){
+            $('.fs_grid_module').masonry();
+        });
+    </script>
+
+    </script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://www.malongyer.com/webroot/js/theme.js"></script>
+        <script src="http://www.malongyer.com/webroot/js/jquery.lazyload.js" type="text/javascript"></script>
+</body>
+</html>
